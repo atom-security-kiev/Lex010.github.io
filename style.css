@@ -25,9 +25,9 @@ li {
 }
 .dice{
     display: block;
-    margin-left: 300px;
+    margin-left: 200px;
     margin-right: 100px;
-    margin-top: 50px;
+    
 }
 
 @keyframes animation1{
