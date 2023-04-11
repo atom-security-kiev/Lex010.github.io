@@ -3,6 +3,7 @@ body {
     font-size: 19px;
 }
 h1 {
+    color: #dac59e;
     text-align: center;
     text-shadow: 1px 1px 2px blue ;
 }
@@ -33,6 +34,24 @@ li {
     border-radius: 10px;
 
 }
+
+.link {
+    color: rgba(8, 146, 8, 0.774);
+}
+.link:hover{
+    color: #eb0c0c;
+    font-size: 25px;
+}
+
+.s_head{
+    background: url(background01.jpg) center;
+    background-size: cover;
+}
+
+.h2_h{
+    color: #acc1cf;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0) ;
+}
     
 
 
@@ -62,6 +81,7 @@ button {
     animation: animation1 infinite 4s;
     height: 75px;
     width: 75px;
+
 }
 #placeholder {
     text-align: center;
@@ -76,4 +96,9 @@ button {
     cursor: grab;
     text-shadow: 1px 1px 5px blue ;
     box-shadow: 10px -5px #7a6a4d;
+
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
 }
