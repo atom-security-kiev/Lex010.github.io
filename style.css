@@ -29,12 +29,10 @@ li {
 width: 400px;
 height: 200px;
 
-    display: block;
-    margin-left: 100px;
-    margin-right: 100px;
     background: linear-gradient(135deg, rgb(185, 147, 255) 40%, rgb(140, 248, 248));
     display: flex;
     justify-content: center;
+    align-items: center;
     border-radius: 10px;
 
 }
