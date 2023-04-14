@@ -40,7 +40,7 @@ height: 200px;
 .link {
     color: black;
     background-color: rgb(219, 218, 218);
-    border: 3px solid #6b036b;
+    border: 3px solid grey;
     font-weight: bold;
     text-decoration: none;
 
@@ -50,6 +50,7 @@ height: 200px;
     color: #fff;
     font-size: 22px;
     background-color: #816b97;
+    border: 3px dashed goldenrod;
 }
 
 .s_head{
@@ -110,4 +111,18 @@ button {
     top: 0;
     left: 0;
     right: 0;
+}
+
+.my_work {
+    background: linear-gradient(-30deg,#333 88%, gold);
+    border-radius: 10px;
+}
+.h_my_w {
+    color: #fff;
+    text-transform: uppercase;
+}
+.discr_my_w {
+    
+    color: pink;
+   padding-bottom: 10px;
 }
