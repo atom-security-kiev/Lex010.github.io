@@ -153,9 +153,10 @@ button {
 .side_menu a {
     padding: 32px 10px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     color: #818181;
     display: block;
+    text-align: center;
 }
 .side_menu a:hover {
     color: #fff;
