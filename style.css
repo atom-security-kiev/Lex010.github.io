@@ -1,16 +1,20 @@
 body {
     background-color: #fffcf2;
     font-size: 19px;
+    margin-top: 0;
+    
 }
 main {
-    margin-left: 140px;
+    margin-left: 19%;
 }
 h1 {
+    margin-top: 0;
     color: #dac59e;
     text-align: center;
     text-shadow: 1px 1px 2px blue ;
     text-transform: uppercase;
     font-size: 30;
+    margin-left: 10%;
 }
 h2 {
     margin-left: 100px;
@@ -25,6 +29,7 @@ img {
     margin-top: 100px;
     margin-right: 100px;
     font-size: 26px;
+    margin-left: 25%;
 }
 li {
     margin-top: 20px;
@@ -120,6 +125,7 @@ button {
 .my_work {
     background: linear-gradient(-30deg,#333 88%, gold);
     border-radius: 10px;
+    
 }
 .h_my_w {
     color: #fff;
@@ -134,7 +140,7 @@ button {
 /* Side menu */
 .side_menu {
     height: 100%;
-    width: 150px;
+    width: 20%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -142,9 +148,10 @@ button {
     background-color: #333;
     overflow-x: hidden;
     padding-top: 20px;
+    
 }
 .side_menu a {
-    padding: 32px;
+    padding: 32px 10px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
@@ -152,4 +159,11 @@ button {
 }
 .side_menu a:hover {
     color: #fff;
+}
+
+
+.side_menu a:active {
+   
+        color: red;
+    
 }
