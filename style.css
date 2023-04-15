@@ -3,7 +3,7 @@ body {
     font-size: 19px;
 }
 main {
-    margin-left: 190px;
+    margin-left: 140px;
 }
 h1 {
     color: #dac59e;
@@ -134,7 +134,7 @@ button {
 /* Side menu */
 .side_menu {
     height: 100%;
-    width: 200px;
+    width: 150px;
     position: fixed;
     z-index: 1;
     top: 0;
