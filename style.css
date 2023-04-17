@@ -96,6 +96,17 @@ height: 200px;
         background-color: #3b007a;
     }
 }
+@keyframes anim02 {
+    0% {
+        color: #fa0000;
+    }
+    50%{
+        color: pink
+    }
+    100% {
+        color: #fff;
+    }
+}
 
 
 
