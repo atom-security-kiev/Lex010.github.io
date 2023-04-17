@@ -98,13 +98,16 @@ height: 200px;
 }
 @keyframes anim02 {
     0% {
-        color: #fa0000;
+        opacity: 0;
     }
-    50%{
-        color: pink
+    33% {
+        opacity: .3;
+    }
+    65% {
+        opacity: .6;
     }
     100% {
-        color: #fff;
+        opacity: 1;
     }
 }
 
