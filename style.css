@@ -83,16 +83,17 @@ height: 200px;
 
 @keyframes animation1{
     0%{
-        background-color: #dfd8e6;
+        background-color: #7d00fa;
     }
     33%{
-        background-color:  #816b97;
+        background-color:  #6300c7;
+        text-shadow: 5px 5px 2px #acc1cf;
     }
     66%{
-        background-color: #382944;
+        background-color: #510192;
     }
     100%{
-        background-color: #3b2a4d;
+        background-color: #3b007a;
     }
 }
 
@@ -104,7 +105,7 @@ button {
     color: bisque;
     padding: 10px;
     cursor: pointer;
-    animation: animation1 infinite 4s;
+    animation: animation1 infinite 1s;
     height: 75px;
     width: 75px;
 
