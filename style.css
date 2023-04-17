@@ -110,6 +110,11 @@ button {
     width: 75px;
 
 }
+button:hover {
+color: rgb(143, 143, 255);
+box-shadow: 4px 4px 7px #333;
+animation: animation1 infinite 2.5s;
+}
 #placeholder {
     text-align: center;
     height: 100px;
