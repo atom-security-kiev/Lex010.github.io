@@ -1,6 +1,18 @@
 const mWork03 = document.getElementById('m_w03')
 const text03 = document.getElementById('video')
-mWork03.onclick = function() {
-    text03.style.animation = 'anim02 infinite 2s'
 
+mWork03.addEventListener('click',
+function() {
+    text03.classList.add('anim002')
+});
+
+text03.addEventListener('animationend', animEnd, false);
+function animEnd() {
+    text03.classList.remove('anim002');
 }
+
+
+
+
+
+
