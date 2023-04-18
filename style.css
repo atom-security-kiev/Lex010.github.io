@@ -104,7 +104,9 @@ height: 200px;
         opacity: 1;transform: translateY(0px);
     }
 }
-
+.anim002 {
+    animation: anim02 forwards 2s;
+}
 
 
 button {
