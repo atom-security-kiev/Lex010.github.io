@@ -31,9 +31,10 @@ img {
     margin-right: auto;
 }
 .email_container {
-    background-color: #33333367;
+    /*background-color: #33333367;*/
     border: #33333367 solid 5px ;
     border-radius: 7px;
+    background-image: url(matrix.gif);
 
     display: flex;
     flex-direction: column;
@@ -46,8 +47,9 @@ img {
     padding: 10px;
     margin: 10px;
   
-    background-color: #3333333d;
+    background-color: #333333be;
     border-radius: 20px;
+    color: bisque;  
 }
 .email_git {
     text-align: center;
@@ -57,8 +59,9 @@ img {
     padding: 10px;
     margin: 10px;
  
-    background-color: #3333333d;
+    background-color: #333333be;
     border-radius: 20px;
+    color: bisque;
 }
 li {
     margin-top: 20px;
@@ -101,6 +104,13 @@ height: 200px;
 .h2_h{
     color: #acc1cf;
     text-shadow: 1px 1px 2px rgb(0, 0, 0) ;
+}
+
+#crabik {
+    border-radius: 10%;
+}
+#crabik:hover {
+    opacity: 0.8;
 }
     
 
